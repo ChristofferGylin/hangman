@@ -1,0 +1,94 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 2fr 1fr;
+    height: 98vh;
+}
+
+#imgContainer {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#letters {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.5rem;
+
+}
+
+.key {
+    background-color: antiquewhite;
+    border: 1px solid rgb(147, 138, 138);
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem black;
+    font-size: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.wrong-letter {
+    color: red;
+}
+
+.right-letter {
+    color: rgb(0, 255, 0);
+}
+
+
+.guess-container,
+.letters-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guess {
+    display: flex;
+    align-items: end;
+    height: 100px;
+}
+
+.guess-letter {
+    text-align: center;
+    display: inline-block;
+    margin-right: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    border-bottom: 0.1rem solid black;
+}
+
+.new-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#newGame {
+    background-color: rgb(245, 154, 18);
+    color: rgb(20, 20, 118);
+    width: 25rem;
+    height: 3rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 1rem;
+    border: 0.1rem solid rgb(20, 20, 118);
+}
+
+#newGame:hover {
+    background-color: rgb(254, 172, 49);
+
+}

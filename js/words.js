@@ -1,0 +1,22 @@
+export const words = [
+    'Chas',
+    'Academy',
+    'Frontend',
+    'Mobile',
+    'JavaScript',
+    'Programming',
+    'Developer',
+    'GitHub',
+    'Algorithm',
+    'School',
+    'Programmer',
+    'Language',
+    'Computer',
+    'Laptop',
+    'Christmas',
+    'Vacation',
+    'Lunch',
+    'Meatballs',
+    'Potatoes',
+    'Sauce'
+]

@@ -1,0 +1,12 @@
+// Setup:
+// 1. Slumpa ett ord ur en lista
+// 2. Räkna antal tecken och presentera för spelaren
+// 3. Måla upp interface för att ta input från användaren
+// 4. Skapa och nollställ en räknare för antal gissningar
+// 5. Spara maximalt antal gissningar (6?) i en variabel
+
+// In game:
+// 1. Ta input från spelaren
+// 2. Kontrollera om tecknet finns i det slumpade ordet, om så är fallet spara index
+// 3. Om tecken finns, skriv ut på skärmen på rätt plats, om inte öka antal-gissningar-räknaren och rita ut en del av galjen, om antal gissningar =  max antal gissningar, häng gubben och visa förlustmeddelande
+// 4. Kontrollera om summa av all input är lika med det slumpade ordet, om så är fallet, visa vinst-meddelande, om inte börja om från 1 (In Game)
