@@ -7,6 +7,7 @@ import { randomWord } from "./randomWord.js";
 export const newGame = () => {
 
     gameParams.word = randomWord();
+    gameParams.wrongGuesses = 0;
     gameParams.guessedLetters.length = 0;
     gameParams.rightGuesses.length = 0;
     gameParams.rightGuesses.length = gameParams.word.length;
